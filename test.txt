@@ -1,0 +1,193 @@
+Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. 093e02a5aa682aa0d15cd6208d38747a
+All computers wait at the same speed. c4b4577a0e9e236c7e2de3a76f8582f2
+A misplaced decimal point will always end up where it will do the greatest damage. 86a690938da92cc5ce8e706c027d32bd
+A good programmer looks both ways before crossing a one-way street. 2a9e3599118d2bab5b6f8028f7d70791
+A computer program does what you tell it to do, not what you want it to do. 6cf79cbcc435643d97b721e8b45c613d
+"Intel Inside" is a Government Warning required by Law. 70ba0bee765e40c8219235c253c89aac
+Common sense gets a lot of credit that belongs to cold feet. 56fd28daf305408316f94c10156e33cc
+Chuck Norris doesn’t go hunting. Chuck Norris goes killing. 528617bf24749ce98cbe99a4c36c7d14
+Chuck Norris counted to infinity... twice. 91ff564ae59642f3acbe501255f1798d
+C is quirky, flawed, and an enormous success. 5d5bd5ae83ee83ff2dfa014d4b08fac6
+Beta is Latin for still doesn’t work. 4330ef5809417e7a9ef5a93dcba95bc5
+ASCII stupid question, get a stupid ANSI! f4685fadeca3133db1d2c31a73fa0b38
+Artificial Intelligence usually beats natural stupidity. bc4cd0f29eefd406d699009715f61739
+Any fool can use a computer. Many do. fe463fd6c60b5dc5a4d1cbff1364fa21
+Hey! It compiles! Ship it! 8761c9fcfd28dac1d5bc69e751daceef
+Hate cannot drive out hate; only love can do that. 041de9c0b6a92d5148cec216f93414cd
+Guns don’t kill people. Chuck Norris kills people. d76a1f487b2c855156674094840de7ad
+God is real, unless declared integer. ad153b4a46794c946c8035fff957e0dd
+First, solve the problem. Then, write the code. 2ae04860e9dfb289625980bca82d5c5f
+Experience is the name everyone gives to their mistakes. f702d86ece48fd560909f7f65dcaf975
+Every piece of software written today is likely going to infringe on someone else’s patent. 90aa0ea9a8bcd1cd0cbf3f064b10a5cd
+Computers make very fast, very accurate mistakes. 91353b655f79bb915cc8080e215149cd
+Computers do not solve problems, they execute solutions. 565a6dfcfc76ffe603e79e9b8571a8ad
+I have NOT lost my mind—I have it backed up on tape somewhere. b72260c34ea1023838cae7e86a7a82e3
+If brute force doesn’t solve your problems, then you aren’t using enough. 82cb6cdfc88721d638702bf4e33f5d01
+It works on my machine. 7f34199750a61b1e612bd6957e3e86bb
+Java is, in many ways, C++??. 19f30db554a9f7854bacb270531d78e1
+Keyboard not found...Press any key to continue. a1174a0361ca9d89ce423656868cde96
+Life would be so much easier if we only had the source code. 5ebedae8cf7e0be1fdcf7947d9c4be95
+Mac users swear by their Mac, PC users swear at their PC. b2f2fe766a0522bc3c39538980fdc1d3
+Microsoft is not the answer. Microsoft is the question. "No" is the answer. ffb1b594dbba8060eabb746482f7baf6
+MS-DOS isn’t dead, it just smells that way. 189a5c407cbb7be1861f63b1ed7c13af
+Only half of programming is coding. The other 90% is debugging. 482e848d90bbe8c15eb774a44d2bfe56
+Pasting code from the Internet into production code is like chewing gum found in the street. 5bc2fb8cff6b14d9c62ea6447da62a4c
+Press any key to continue or any other key to quit. 0886ed4a4318585ad15457e29ee1b458
+Profanity is the one language all programmers know best. 677f8fdaaf4285fd8302f497438391a2
+The best thing about a boolean is even if you are wrong, you are only off by a bit. a9e5db6e9f38c44e81dc50fb795d2bcd
+The nice thing about standards is that there are so many to choose from. f804f2c6481419f13ae4ebb05b3a20cb
+There are 3 kinds of people: those who can count and those who can’t. 7580116bac3a0055a8b260dc6b7bddc2
+There is no place like 127.0.0.1 8b3616a71c3ef2a36b3276ede5689624
+There is nothing quite so permanent as a quick fix. 55018ee8b2a14f15a7603f0baa8e18f8
+There’s no test like production. 9ea04f2dcff83b51feee2211cb2f1517
+To err is human, but for a real disaster you need a computer. bfc0f8a9fcb7d930d186bceef434b6b0
+Ubuntu is an ancient African word, meaning "can’t configure Debian" 0128b3c31e7470a610301d18e212b617
+UNIX is the answer, but only if you phrase the question very carefully. 12e95ec35d47eb3d36f9a50ce244fddb
+Usenet is a Mobius strand of spaghetti. 0ed19f754126e713ee8804f9b4b76f25
+Weeks of coding can save you hours of planning. deb3deb140b26887a3632b762748ffd9
+When your computer starts falling apart, stop hitting it with a Hammer! 602c4748d100910a7192b2ee1c951fce
+Who is General Failure? And why is he reading my disk? 1c752a281bf8c40c64b9a0d08ba27f10
+You can stand on the shoulders of giants OR a big enough pile of dwarfs, works either way. 90095f9ffb76439405534eb238cf9646
+You start coding. I’ll go find out what they want. de86202099ab7338899fa03e53f8b39b
+I love deadlines. I like the whooshing sound they make as they fly by. 343bcc4ac8f003f3e943c65e9d85f53f
+I think we agree, the past is over. 11d33ef0751c292ecf3cc69ca4fc01d6
+In order to be irreplaceable, one must always be different. 018d75781117829ee67717460368fcfc
+In the future everyone will be famous for fifteen minutes. cbbd025fa4ecc115d4828b4418d74777
+In three words I can sum up everything I’ve learned about life: it goes on. c9d9471a71a5346a86821e3892d00e8d
+It is a mistake to think you can solve any major problems just with potatoes. db223bbd0c8ef5796c4d3978996e3f05
+It’s kind of fun to do the impossible. 58dbe57be79b3fe80e38e131aae70460
+Java is to JavaScript what Car is to Carpet. 39d25d5754dd1049aeadb6eb3830a9b6
+Judge a man by his questions rather than by his answers. 55fdb6ae9706f497b938f677c0a9890b
+Just don’t create a file called -rf. 3706b868dcec776eb83878f2ae2965ca
+Knowledge is power. dd17f420c08a3fe46b1590cc1cace1dc
+Let’s call it an accidental feature. 4e0575123b2094b8646913ea82e9a0f0
+Linux is only free if your time has no value. 7f18a87ab1798ffaa9bcbc7fe91925f8
+Measuring programming progress by lines of code is like measuring aircraft building progress by weight. f3a1150664bd6cfb2203b2de7a6ad5dd
+Never trust a computer you can’t throw out a window. 2f5658a61680a1322bacd5f06ccecf06
+Nobody expects the Spanish inquisition. 010ba979d3945a33b625ed29c172904e
+On the Internet, nobody knows you’re a dog. e21c44da8d9c54eb55356759dcc8aaa5
+One man’s constant is another man’s variable. a608da95ea1e5d3d8ebfe39efd896a96
+People that hate cats will come back as mice in their next life. 4bfc6da7c56154040613fc1825841955
+Perl - The only language that looks the same before and after RSA encryption. a93df2850b0c44dc596ce48c48169d81
+PHP – Yeah, you know me. ff025838867bd402e12512dd80c541e4
+The future is here. It is just not evenly distributed yet. f0077a43a8449682d9dc2aa5116b732b
+The greatest performance improvement of all is when a system goes from not-working to working. a6d5446f7086858b4c2a9b0e6943df9d
+Software is like sex: It’s better when it’s free. 3008a474801fe686e6cd115b1d40497b
+Sour, sweet, bitter, pungent, all must be tasted. 0a5b6a751e40fd5e884090af7c636708
+Stay hungry, stay foolish. f41af861294fe405fa5265216bab38a6
+The artist belongs to his work, not the work to the artist. 03ff707c5044cb16ec4dd989ad9d86c1
+The only "intuitive" interface is the nipple. After that it’s all learned. 26c9d6b4f8ccda3933d8366d022b5f61
+The only completely consistent people are the dead. 0cb1158c8a8d9a77873ee45242ed750d
+The problem with troubleshooting is that trouble shoots back. 561f1a28c44f86fa8cd9d0ccc55dacdb
+The three great virtues of a programmer: laziness, impatience, and hubris. 41f765f2e0c14967aabf652edd0ece52
+Time is an illusion. Lunchtime doubly so. 81296468ae3cbb5d2cc5235f4abbce97
+When debugging, novices insert corrective code; experts remove defective code. a3173049b54c64c0949a107d49e5429d
+When in doubt, leave it out. 0bf3e044d2fefedf79f03af48356f955
+Walking on water and developing software from a specification are easy if both are frozen. 991785074e6dea1e80a0947cca58175a
+We cannot learn without pain. 4df8877c52488e1c6e88df7d2ed7a766
+We have always been shameless about stealing great ideas. 19eeb8a58a73c2a039c37a84416cba34
+You can kill a man but you can’t kill an idea. 09d5f1282c64fae36733be4a776459ab
+You can never underestimate the stupidity of the general public. 3031ec1b5777fd170c58ce06f76d1738
+You must have chaos in your soul to give birth to a dancing star. 875b9b325d76a0964beace2b15656711
+Without requirements or design, programming is the art of adding bugs to an empty "text" file. c4d21fd14791d006a46eb898479854b4
+Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code. 8dbe1b187b9fe4ac27489796bd478648
+You miss 100 percent of the shots you never take. fa72a38e0b1fcd6bd1ea9fda74bd8ebd
+One of the biggest problems that software developers face is that technology changes rapidly. It is very hard to stay current. d22e0576484b8bf5cb5904d1415db76d
+Ideas want to be ugly. f6f9a02eb7e04ebb1c3c8d3070f0a1ce
+Developer: an organism that turns coffee into code. 94912ac533f0928c7df3df56dacb6012
+One man´s crappy software is another man´s full time job. 2302404933f3c2a0c40516eae23c1f1e
+It´s okay to figure out murder mysteries, but you shouldn´t need to figure out code. You should be able to read it. d30784031a035d43e02e876ca1aa8142
+Programming languages, like pizzas, come in only two sizes: too big and too small. cce8e3b594f58374de520712cb89c24e
+Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to produce bigger and better idiots. So far, the universe is winning. 82487fcb19355277e617f03e26ca2f77
+Plan to throw one (implementation) away; you will, anyhow. bd17fba9704f84fe7693cd5dd5fff38e
+Every good work of software starts by scratching a developer´s personal itch 4005a3c7a1c45255cad2dd04e36b59cf
+Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away. b493e3b925b91248c7e0f316f5f79105
+Prolific programmers contribute to certain disaster. 08c340feecd91222f21f2de5e66ca311
+Programming can be fun, so can cryptography; however they should not be combined. 1ddf842935fbb759bf4aa3d393b9a494
+It´s better to wait for a productive programmer to become available than it is to wait for the first available programmer to become productive. 3b7f63cc73940f282963378d190e8623
+An organization that treats its programmers as morons will soon have programmers that are willing and able to act like morons only. 3158fdea3c307ce105c0cf6e09fb7426
+Real programmers can write assembly code in any language. e07f7db36546073ebba3c3d4cac30ea6
+The key to performance is elegance, not battalions of special cases. 33ad234778c816ae6514edf6fd4c5e15
+Inside every large program, there is a program trying to get out. f87490e5d8b2d092059e8d8d026403e5
+Why do we never have time to do it right, but always have time to do it over? 9ade213d11a7d11a64fc35510becc5ff
+The goal of Computer Science is to build something that will last at least until we´ve finished building it.  1fb0731b25d92038c8ccb3a28a3e268c
+A good way to stay flexible is to write less code. 1bc2c82396cb0798d44fb3798653852a
+No matter what the problem is, it´s always a people problem. 3b1de3b7ba4d5b33a2a034d388dc8b1f
+Every big computing disaster has come from taking too many ideas and putting them in one place. 9e90efb752ee2989c70511d75e7be6cb
+Adding manpower to a late software project makes it later! 31ec65dbaeaa4f8708a41dd24526cf29
+The best way to get a project done faster is to start sooner c348546e11088e80361a0fda99ccd73b
+Even the best planning is not so omniscient as to get it right the first time. 959015a182420103d12d6af8ae8d3936
+All you need is love. But a new pair of shoes never hurt anybody. b01d3dd9fc6792322a4adc31d8acf9ab
+The best revenge is massive success. a43094f360ef844e6e1910710c6f4359
+Reality itself is too obvious to be true. 4e2a6eb4b016c610970b6fdd442b8b5e
+Be yourself; everyone else is already taken. b13a7f12cd187eafc6e4f96e32b9de17
+Let me just change this one line of code… 8067c6d7e0878c7be0c5380a4ea40c9d
+Fast, Good, Cheap. Pick two. 54e25fb244fb672721e44b306b7562c0
+Did you know? The collective noun for a group of programmers is a merge-conflict. 66034b2f0fadbb8af795d60e856c4995
+If there is no struggle, there is no progress. 85920f29726df5ced73cb3e00d8bec2e
+You have to learn the rules of the game. And then you have to play better than anyone else. c374722ee5c4ae68ca95d2909187f69a
+Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning. c231b3efb3e5b7d1f84b6d72d646d486
+Insanity: doing the same thing over and over again and expecting different results. c9b418f081266894ab6f2b7c0ae1a7ec
+A person who never made a mistake never tried anything new. e10def0254156c42c371ad3f338303f0
+Logic will get you from A to B. Imagination will take you everywhere. c907c43f8e3874ae45543611ac4973ed
+When the solution is simple, God is answering. 53a5c215a2cf86bf99ad0423841e8435
+If you can´t explain it simply, you don´t understand it well enough. 0e74a4e8a3e5bf98010ad158572ec379
+If the facts don´t fit the theory, change the facts. 297c79e5c07da2c337bbdfcd552ade2f
+It is a miracle that curiosity survives formal education. 5e8ab65554a87e0480dadc0c753f2ab6
+I only believe in statistics that I doctored myself. dbc260bf42b9ad5e38f74201b2e48b8b
+Men and nations behave wisely when they have exhausted all other resources. da9b2d1af99401e8d8e6cbbc6c6fa8fd
+If you´re going through hell, keep going. 8f29ffd7f493c05582586242e470ac74
+Success is not forever and failure isn´t fatal. bc633c35058714ac41dd328d59f85302
+I have never let my schooling interfere with my education. 37bbf30a25ec07bb4e29a950f6f19f5b
+The secret of getting ahead is getting started. b7e9ec7595c670eb579f3bcf7f142d08
+Get your facts first, then you can distort them as you please. ffe0c21afd63279dbe195adfdfc3e9f6
+Apparently there is nothing that cannot happen today. 9f8a606724208e8ea0265c67085a1dac
+Plans are worthless, but planning is everything. f3c72e9cc95fe1ddff719fc531ee339a
+Before you marry a person you should first make them use a computer with slow Internet to see who they really are. 5896459a2e3ab5066046b7330eed4641
+I just invent, then wait until man comes around to needing what I´ve invented. 1f3adfcace384746f4d26c35ec1ddba6
+The best way to make your dreams come true is to wake up. 34f052e156b8b3628e1357552e3ba8e3
+If you can't write it down in English, you can't code it. 31473920de2ef1cbb5852745d9e910a8
+Suspicion is healthy. It’ll keep you alive. 80b4b2ec0d58a0c18187f3b3dc0c89c5
+If your parents never had children, chances are you won’t, either. 01ff69a8378fcbfade6c82c81db048d6
+Sometimes I think we´re alone in the universe & sometimes I think we´re not. In either case the idea is quite staggering bf1049b9f818c2e7d4afd6256413ead3
+Talk is cheap, show me the code! 9bdce612d93c7e74611306c74fa4ddb5
+They did not know it was impossible, so they did it! 0235e7b43c1a1cb77dddf5564a0a5c57
+You are what you share. d9f533e9ae850698c5f83ac58c25f802
+You want it in one line? Does it have to fit in 80 columns? bb84fd1fc369772f41258354cfcd521b
+The Internet? Is that thing still around? 2be6195f1cd741535ac7148de39f8602
+The journey is the destination. 2f6f7c34fee9d85c8d524e657415bb48
+OO programming offers a sustainable way to write spaghetti code. It lets you accrete programs as a series of patches. fbc7aadbba4a2bd38be07be250007dcb
+Ruby is rubbish! PHP is phpantastic! 05a66490db812b9fe391ee0355c5d652
+So long and thanks for all the fish! 1b2c45e8130a058f23937ecd48b2a97d
+If I had more time, I would have written a shorter letter. e1d238bf50de88925c7b8b2e78e4a670
+The best reaction to "this is confusing, where are the docs" is to rewrite the feature to make it less confusing, not write more docs. a772a0228c86880d48a764ef080cb257
+The older I get, the more I believe that the only way to become a better programmer is by not programming. b00fa6b9fbb7b8039912ebde5b336000
+"That hardly ever happens" is another way of saying "it happens". 9ffa9797b50af2ec9ebbd427fac8d3aa
+Hello, PHP, my old friend. 0623cb40268e3190a71bdaf979b613af
+Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations. 0ef2a1ecf74a77095fb9a7d0e3946145
+In design, complexity is toxic. 96d927b4348ed2845ec6b0396c558e45
+Good is the enemy of great, but great is the enemy of shipped. 7f3bc4cbf074df0381c0d028c2864594
+Don't make the user provide information that the system already knows. ab6704531ffad5bc49a082c86e574d00
+You're bound to be unhappy if you optimize everything. 05d5c4bdbf8fbabcc9f5adc004fc82fb
+If the programmers like each other, they play a game called 'pair programming'. And if not then the game is called 'peer review'. 1859c61323f4c339b7441b4a46aac7d3
+Simplicity is prerequisite for reliability. 2da315118b9e7fdfe92d37a0ba7d03d5
+Focus on WHY instead of WHAT in your code will make you a better developer d103f94926261f98a45746bfa114f373
+The best engineers I know are artists at heart. The best designers I know are secretly technicians as well. 6f5ed2c65643ecedf4159533957487a9
+Poor management can increase software costs more rapidly than any other factor. b873fb44b7a931d62581c74605c81758
+If you can't deploy your services independently then they aren't microservices. 409920d8d63609ec7bc79e2c6d6c075d
+No one hates software more than software developers. 086cc9514303060f406d56d83e2ee918
+The proper use of comments is to compensate for our failure to express ourself in code. 09f9e54d2f006bf32a07ed1c3964ff7d
+Code is like humor. When you have to explain it, it's bad. 81cc06d58ddc1b21f489e95e4721c318
+Fix the cause, not the symptom. 299ab0eb2563a7605fdf35dc5e24f884
+Programmers are constantly making things more complicated than they need to be BECAUSE FUTURE. Fuck the future. Program for today. ec079bc20f0adcefdc47f00bb08af401
+People will realize that software is not a product; you use it to build a product. d733c9993876e18c6b3bc786c5b06c24
+Design is choosing how you will fail. 66f908cf303180dbfb908acba261c895
+Focus is saying no to 1000 good ideas. e81ef5b526fe4757502a866fba98c260
+Code never lies, comments sometimes do. a49dbe3acfc0644b0f0cc609a19307db
+Be careful with each other, so you can be dangerous together. c58cdec97105aedd3842b1fc5b611f22
+When making a PR to a major project, you have to "sell" that feature / contribution. You have to be convincing on why it belongs there. The maintainer is going to be the one babysitting that code forever. f1e45fa23079cd93c03a381f5917bfa6
+Be the change you wish was made. Share the lessons you wish you'd been taught. Make the sacrifices you wish others had made. 3c957e42c28c1a02327220b1cf77dd6f
+The only way to achieve flexibility is to make things as simple and easy to change as you can. 58bf59d31a60abad2d32179ca6efab70
+The computer was born to solve problems that did not exist before. 85bd69e9a706b293a58d1da80d202056
+People don't care about what you say, they care about what you build. 0a92a829ad0e58b971eee5a7641018e2
+We will not ship shit. de6f74d8e0d4f99ac56143252a4e7e42
