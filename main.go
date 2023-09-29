@@ -936,14 +936,14 @@ func main() {
 		User:   user,
 		Secret: secret,
 		Content: Content{
-			Level: getLevelUser(jsonBody, foundPort),
+			Level: getLevelUser(jsonBody, foundPort) + 4,
 			Challenge: Challenge{
 				Username: user,
 				Secret:   secret,
 				Points:   getUserPoints(jsonBody, foundPort),
 			},
 			Protocol:  "MD5",
-			SecretKey: secret,
+			SecretKey: "Pasting code from the Internet into production code is like chewing gum found in the street.",
 		},
 	}
 
