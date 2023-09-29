@@ -10,11 +10,31 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"strconv"
 	"strings"
 	"sync"
 )
 
 var foundPort = make(chan int, 1)
+
+type Challenge struct {
+	Username string `json:"username"`
+	Secret   string `json:"secret"`
+	Points   int    `json:"points"`
+}
+
+type Content struct {
+	Level     int       `json:"level"`
+	Challenge Challenge `json:"challenge"`
+	Protocol  string    `json:"protocol"`
+	SecretKey string    `json:"secretKey"`
+}
+
+type Payload struct {
+	User    string  `json:"user"`
+	Secret  string  `json:"secret"`
+	Content Content `json:"content"`
+}
 
 func FetchPort(port int, wg *sync.WaitGroup) {
 	defer wg.Done()
@@ -59,7 +79,7 @@ func main() {
 	foundPort := <-foundPort
 	fmt.Printf("Found port: %d\n", foundPort)
 
-	user := "Théo"
+	user := "theosama"
 	payload := map[string]string{
 		"user": user,
 	}
@@ -70,12 +90,12 @@ func main() {
 	}
 
 	// Adding the user
-	resp1 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/signup", foundPort), jsonBody)
-	fmt.Print(resp1)
+	resp := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/signup", foundPort), jsonBody)
+	fmt.Print(resp)
 
 	// Check the user
-	resp2 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/check", foundPort), jsonBody)
-	fmt.Print(resp2)
+	resp = FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/check", foundPort), jsonBody)
+	fmt.Print(resp)
 
 	// GetUserSecret
 	// secret := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserSecret", foundPort), jsonBody)
@@ -96,20 +116,17 @@ func main() {
 	}
 
 	// GetUserLevel
-	for i := 0; i < 1; i++ {
-		resp4 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserLevel", foundPort), jsonBody)
-		fmt.Print(resp4)
-	}
+	level := getLevelUser(jsonBody, foundPort)
+	fmt.Println("user level", level)
 
 	// GetUserPoints
-	for i := 0; i < 1; i++ {
-		resp5 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserPoints", foundPort), jsonBody)
-		fmt.Print(resp5)
-	}
+	// resp = FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserPoints", foundPort), jsonBody)
+	userPoints := getUserPoints(jsonBody, foundPort)
+	fmt.Println("userPoints : ", userPoints)
 
 	// Get all the Hints
 	var slicer []string
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 3; i++ {
 		resp6 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/iNeedAHint", foundPort), jsonBody)
 		slicerAns := strings.Trim(resp6, "Coward over here asking for hints...\nHere you go, your random hint:\n")
 		if !contains(slicer, slicerAns) {
@@ -122,16 +139,8 @@ func main() {
 	}
 
 	// enterChallenge
-	for i := 0; i < 1; i++ {
-		resp4 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/enterChallenge", foundPort), jsonBody)
-		fmt.Print(resp4)
-	}
-
-	// submitSolution
-	for i := 0; i < 1; i++ {
-		resp5 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/submitSolution", foundPort), jsonBody)
-		fmt.Print(resp5)
-	}
+	resp = FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/enterChallenge", foundPort), jsonBody)
+	fmt.Println(resp)
 
 	// Get all the Quotes
 	jsonQuotesData := `[
@@ -922,6 +931,54 @@ func main() {
 	// }
 	// The good quote corresponding to Hint 5bc2fb8cff6b14d9c62ea6447da62a4c is :
 	// Pasting code from the Internet into production code is like chewing gum found in the street.
+
+	finalPayload := Payload{
+		User:   user,
+		Secret: secret,
+		Content: Content{
+			Level: getLevelUser(jsonBody, foundPort),
+			Challenge: Challenge{
+				Username: user,
+				Secret:   secret,
+				Points:   getUserPoints(jsonBody, foundPort),
+			},
+			Protocol:  "MD5",
+			SecretKey: secret,
+		},
+	}
+
+	// Convert the map to JSON
+	finalJsonBody, err := json.Marshal(finalPayload)
+	if err != nil {
+		fmt.Println("Error encoding JSON:", err)
+		return
+	}
+
+	resp = FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/submitSolution", foundPort), finalJsonBody)
+	fmt.Print(resp)
+}
+
+func getUserPoints(jsonBody []byte, foundPort int) int {
+	resp := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserPoints", foundPort), jsonBody)
+	parts := strings.Fields(resp)
+	for _, part := range parts {
+		if number, err := strconv.Atoi(part); err == nil {
+			return number
+		}
+	}
+	return 0
+}
+
+func getLevelUser(jsonBody []byte, foundPort int) int {
+	resp := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserLevel", foundPort), jsonBody)
+	parts := strings.Split(resp, ":")
+	numberStr := strings.TrimSpace(parts[1])
+	number, err := strconv.Atoi(numberStr)
+	if err != nil {
+		return 0
+	}
+
+	return number
 }
 
 func calculateMD5(input string) string {
