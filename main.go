@@ -26,13 +26,13 @@ func FetchPort(port int, wg *sync.WaitGroup) {
 	}
 	defer resp.Body.Close()
 
-	body, err := io.ReadAll(resp.Body)
+	_, err = io.ReadAll(resp.Body)
 	if err != nil {
 		// fmt.Printf("Error reading response from %s: %v\n", url, err)
 		return
 	}
 	foundPort <- port
-	fmt.Printf("Response from %s: %s\n", url, string(body))
+	// fmt.Printf("Response from %s: %s\n", url, string(body))
 }
 
 func main() {
@@ -90,36 +90,52 @@ func main() {
 	// GetUserLevel
 	for i := 0; i < 1; i++ {
 		resp4 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserLevel", foundPort), jsonBody)
-		fmt.Println(resp4)
+		fmt.Print(resp4)
 	}
 
 	// GetUserPoints
 	for i := 0; i < 1; i++ {
 		resp5 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserPoints", foundPort), jsonBody)
-		fmt.Println(resp5)
+		fmt.Print(resp5)
 	}
 
-	// iNeedAHint
+	// Get all the Hints
 	var slicer []string
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 12; i++ {
 		resp6 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/iNeedAHint", foundPort), jsonBody)
 		slicerAns := strings.Trim(resp6, "Coward over here asking for hints...\nHere you go, your random hint:\n")
 		if !contains(slicer, slicerAns) {
 			slicer = append(slicer, slicerAns)
 		}
 	}
+	fmt.Println("All hints :")
 	for _, element := range slicer {
-		fmt.Println("| ", element)
+		fmt.Println("|-", element)
 	}
-}
 
-func contains(slice []string, str string) bool {
-	for _, s := range slice {
-		if s == str {
-			return true
-		}
+	// GetUserLevel
+	for i := 0; i < 1; i++ {
+		resp4 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserLevel", foundPort), jsonBody)
+		fmt.Print(resp4)
 	}
-	return false
+
+	// GetUserPoints
+	for i := 0; i < 1; i++ {
+		resp5 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/getUserPoints", foundPort), jsonBody)
+		fmt.Print(resp5)
+	}
+
+	// enterChallenge
+	for i := 0; i < 1; i++ {
+		resp4 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/enterChallenge", foundPort), jsonBody)
+		fmt.Print(resp4)
+	}
+
+	// submitSolution
+	for i := 0; i < 1; i++ {
+		resp5 := FetchUrl(fmt.Sprintf("http://10.49.122.144:%d/submitSolution", foundPort), jsonBody)
+		fmt.Print(resp5)
+	}
 }
 
 func FetchUrl(url string, jsonBody []byte) string {
@@ -139,4 +155,13 @@ func FetchUrl(url string, jsonBody []byte) string {
 	}
 	// fmt.Printf("Response from %s: %s\n", url, string(body))
 	return string(body)
+}
+
+func contains(slice []string, str string) bool {
+	for _, s := range slice {
+		if s == str {
+			return true
+		}
+	}
+	return false
 }
